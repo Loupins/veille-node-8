@@ -1,9 +1,11 @@
 {
 	"Accueil": "Index",
-	"Vider": "Delete",
+	"Vider": "Empty",
 	"Adresse": "Adress",
-	"Nom": "Second name",
+	"Nom": "Last name",
 	"Prenom": "First name",
 	"Téléphone": "Phone",
-	"Courriel": "Email"
+	"Courriel": "Email",
+	"bonjour": "bonjour",
+	"maison": "maison"
 }
