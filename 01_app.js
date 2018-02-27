@@ -48,7 +48,7 @@ app.set('view engine', 'ejs'); // générateur de template
 app.get('/:locale(en|fr)',  (req, res) => {
 	res.cookie('langueChoisie' , req.params.locale);
 	res.setLocale(req.params.locale)
-	res.render('accueil.ejs')
+	res.redirect(req.get('referer'))
 })
 
 
