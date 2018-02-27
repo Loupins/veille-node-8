@@ -1,4 +1,9 @@
 {
-	"bonjour": "Hello",
-	"maison": "House"
+	"Accueil": "Index",
+	"Vider": "Delete",
+	"Adresse": "Adress",
+	"Nom": "Second name",
+	"Prenom": "First name",
+	"Téléphone": "Phone",
+	"Courriel": "Email"
 }

@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 /* on associe le moteur de vue au module «ejs» */
 app.use(express.static('public'));
 const cookieParser = require('cookie-parser');
-app.use(cookieParser)
+app.use(cookieParser());
 
 const i18n = require('i18n');
 i18n.configure({ 
